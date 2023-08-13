@@ -86,37 +86,37 @@ const Experience = () => {
               className=' mt-8 flex flex-row justify-evenly items-center flex-wrap gap-8 mobile:gap-4'>
                 <motion.div 
                   variants={imgVarients}
-                  className=' flex flex-col items-center bg-transparent w-40 h-36 rounded-lg justify-center gap-y-4'>
+                  className=' flex flex-col items-center bg-transparent mobile:w-36 mobile:h-36 w-40 h-36 rounded-lg justify-center gap-y-4'>
                   <RiHtml5Fill className=' text-6xl text-orange-500 animate-[skillIcons_5s_ease-in-out_infinite]'/>
                   <h1 className=' text-xl text-slate-200 capitalize'>Html</h1>
                 </motion.div>
                 <motion.div 
                   variants={imgVarients}
-                  className=' flex flex-col items-center bg-transparent w-40 h-36 rounded-lg justify-center gap-y-4'>
+                  className=' flex flex-col items-center bg-transparent mobile:w-36 mobile:h-36 w-40 h-36 rounded-lg justify-center gap-y-4'>
                   <TfiCss3 className=' text-6xl text-sky-500 animate-[skillIcons_5s_ease-in-out_infinite]'/>
                   <h1 className=' text-xl text-slate-200 '>CSS</h1>
                 </motion.div>
                 <motion.div 
                   variants={imgVarients}       
-                  className=' flex flex-col items-center bg-transparent w-40 h-36 rounded-lg justify-center gap-y-4'>
+                  className=' flex flex-col items-center bg-transparent mobile:w-36 mobile:h-36 w-40 h-36 rounded-lg justify-center gap-y-4'>
                   <TbBrandJavascript className=' text-6xl text-yellow-500 animate-[skillIcons_5s_ease-in-out_infinite]'/>
                   <h1 className=' text-xl text-slate-200 '>Java Script</h1>
                 </motion.div>
                 <motion.div 
                   variants={imgVarients}
-                  className=' flex flex-col items-center bg-transparent w-40 h-36 rounded-lg justify-center gap-y-4'>
+                  className=' flex flex-col items-center bg-transparent mobile:w-36 mobile:h-36 w-40 h-36 rounded-lg justify-center gap-y-4'>
                   <FaReact className=' text-6xl text-sky-800 animate-[skillIcons_5s_ease-in-out_infinite]'/>
                   <h1 className=' text-xl text-slate-200 '>React</h1>
                 </motion.div>
                 <motion.div 
                   variants={imgVarients}          
-                  className=' flex flex-col items-center bg-transparent w-40 h-36 rounded-lg justify-center gap-y-4'>
+                  className=' flex flex-col items-center bg-transparent mobile:w-36 mobile:h-36 w-40 h-36 rounded-lg justify-center gap-y-4'>
                   <SiTailwindcss className=' text-6xl text-blue-700 animate-[skillIcons_5s_ease-in-out_infinite]'/>
                   <h1 className=' text-xl text-slate-200 '>Tailwind CSS</h1>
                 </motion.div>
                 <motion.div 
                   variants={imgVarients}                
-                  className=' flex flex-col items-center bg-transparent w-40 h-36 rounded-lg justify-center gap-y-4'>
+                  className=' flex flex-col items-center bg-transparent mobile:w-36 mobile:h-36 w-40 h-36 rounded-lg justify-center gap-y-4'>
                   <FaBootstrap className=' text-6xl text-purple-700 animate-[skillIcons_5s_ease-in-out_infinite]'/>
                   <h1 className=' text-xl text-slate-200 '>Bootstrap</h1>
                 </motion.div>
@@ -144,25 +144,25 @@ const Experience = () => {
                 className=' mt-8 flex flex-row justify-evenly items-center flex-wrap gap-8 mobile:gap-4'>
                 <motion.div 
                  variants={imgVarients}          
-                 className=' flex flex-col items-center bg-transparent w-40 h-36 rounded-lg justify-center gap-y-4'>
+                 className=' flex flex-col items-center bg-transparent mobile:w-36 mobile:h-36 w-40 h-36 rounded-lg justify-center gap-y-4'>
                   <BsFiletypeSql className=' text-6xl text-red-400 animate-[skillIcons_5s_ease-in-out_infinite]'/>
                   <h1 className=' text-xl text-slate-200 capitalize'>SQL</h1>
                 </motion.div>
                 <motion.div 
                  variants={imgVarients}          
-                 className=' flex flex-col items-center bg-transparent w-40 h-36 rounded-lg justify-center gap-y-4'>
+                 className=' flex flex-col items-center bg-transparent mobile:w-36 mobile:h-36 w-40 h-36 rounded-lg justify-center gap-y-4'>
                   <SiMongodb className=' text-6xl text-green-400 animate-[skillIcons_5s_ease-in-out_infinite]'/>
                   <h1 className=' text-xl text-slate-200 '>MongoDB</h1>
                 </motion.div>             
                 <motion.div 
                  variants={imgVarients}          
-                 className=' flex flex-col items-center bg-transparent w-40 h-36 rounded-lg justify-center gap-y-4'>
+                 className=' flex flex-col items-center bg-transparent mobile:w-36 mobile:h-36 w-40 h-36 rounded-lg justify-center gap-y-4'>
                   <BsFiletypePhp className=' text-6xl text-slate-500 animate-[skillIcons_5s_ease-in-out_infinite]'/>
                   <h1 className=' text-xl text-slate-200 '>Php</h1>
                 </motion.div>
                 <motion.div 
                  variants={imgVarients}          
-                 className=' flex flex-col items-center bg-transparent w-40 h-36 rounded-lg justify-center gap-y-4'>
+                 className=' flex flex-col items-center bg-transparent mobile:w-36 mobile:h-36 w-40 h-36 rounded-lg justify-center gap-y-4'>
                   <FaNodeJs className=' text-6xl text-green-800 animate-[skillIcons_5s_ease-in-out_infinite]'/>
                   <h1 className=' text-xl text-slate-200 '>Node Js</h1>
                 </motion.div>
