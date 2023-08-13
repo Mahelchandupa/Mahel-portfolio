@@ -83,7 +83,7 @@ const Experience = () => {
                    initial="initial"
                    whileInView="whileInView"
                    viewport={{ once: true }}
-              className=' mt-8 flex flex-row justify-evenly items-center flex-wrap gap-8'>
+              className=' mt-8 flex flex-row justify-evenly items-center flex-wrap gap-8 mobile:gap-4'>
                 <motion.div 
                   variants={imgVarients}
                   className=' flex flex-col items-center bg-transparent w-40 h-36 rounded-lg justify-center gap-y-4'>
@@ -141,7 +141,7 @@ const Experience = () => {
                 initial="initial"
                 whileInView="whileInView"
                 viewport={{ once: true }}
-                className=' mt-8 flex flex-row justify-evenly items-center flex-wrap gap-8'>
+                className=' mt-8 flex flex-row justify-evenly items-center flex-wrap gap-8 mobile:gap-4'>
                 <motion.div 
                  variants={imgVarients}          
                  className=' flex flex-col items-center bg-transparent w-40 h-36 rounded-lg justify-center gap-y-4'>
