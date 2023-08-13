@@ -29,12 +29,9 @@ module.exports = {
       },
       colors: {
         overlay: 'rgba(0,0,0,0.5)'
-      },
-    
+      },   
     },
-    screens: {
-      'mobile': '340px',
-    }
+  
   },
   plugins: [],
 }
