@@ -7,7 +7,7 @@ import {BsWhatsapp} from 'react-icons/bs'
 
 const Contact = () => {
   return (
-    <section id='contact' className=' overflow-hidden py-[100px]  lg:h-auto font-mono bg-cover lg:bg-contain bg-center bg-[url("https://github.githubassets.com/images/modules/site/home-campaign/bg-stars-1.webp")] '>
+    <section id='contact' className=' overflow-hidden py-[50px] lg:py-[100px] lg:h-auto font-mono bg-cover lg:bg-contain bg-center bg-[url("https://github.githubassets.com/images/modules/site/home-campaign/bg-stars-1.webp")] '>
     <div className=' px-5 container mx-auto overflow-hidden'>
       <div className=''>
       {/* header */}

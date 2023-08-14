@@ -53,10 +53,10 @@ const Footer = () => {
         className=' p-[0.8rem] rounded-full flex bg-transparent text-white text-xl border-[1px] border-sky-800 hover:bg-sky-800 hover:border-transparent transition duration-300 ease-in-out animate-[footerSocialIcons_5s_ease-in-out_infinite]' href="https://instagram.com/mahel_chandupa?igshid=ZDdkNTZiNTM=" rel='noopener noreferrer' target='_blank'><FiInstagram/>
         </a>
         <a 
-        className=' p-[0.8rem] rounded-full flex bg-transparent text-white text-xl border-[1px] border-sky-800 hover:bg-sky-800 hover:border-transparent transition duration-300 ease-in-out animate-[footerSocialIcons_5s_ease-in-out_infinite]' href="#" rel='noopener noreferrer' target='_blank'><FaGithub/>
+        className=' p-[0.8rem] rounded-full flex bg-transparent text-white text-xl border-[1px] border-sky-800 hover:bg-sky-800 hover:border-transparent transition duration-300 ease-in-out animate-[footerSocialIcons_5s_ease-in-out_infinite]' href="https://github.com/Mahelchandupa" rel='noopener noreferrer' target='_blank'><FaGithub/>
         </a>
         <a 
-        className=' p-[0.8rem] rounded-full flex bg-transparent text-white text-xl border-[1px] border-sky-800 hover:bg-sky-800 hover:border-transparent transition duration-300 ease-in-out animate-[footerSocialIcons_5s_ease-in-out_infinite]' href="#" rel='noopener noreferrer' target='_blank'><FaLinkedin/>
+        className=' p-[0.8rem] rounded-full flex bg-transparent text-white text-xl border-[1px] border-sky-800 hover:bg-sky-800 hover:border-transparent transition duration-300 ease-in-out animate-[footerSocialIcons_5s_ease-in-out_infinite]' href="https://linkedin.com/in/mahel-chandupa" rel='noopener noreferrer' target='_blank'><FaLinkedin/>
         </a>
       </motion.div>
  

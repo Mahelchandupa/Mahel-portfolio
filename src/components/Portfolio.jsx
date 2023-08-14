@@ -46,7 +46,7 @@ const Portfolio = () => {
     <section id='portfolio' className=' lg:my-[100px] my-[50px] overflow-hidden h-auto font-mono bg-cover lg:bg-contain lg:bg-center  bg-[url("https://github.githubassets.com/images/modules/site/home-campaign/bg-stars-1.webp")] '>
     <div className=' px-5 container mx-auto'>
     
-    <div className=' my-[50px] lg:my-[10px]'>
+    <div className=' lg:my-[10px]'>
         {/* header */}
         <motion.p 
         initial={{ x: -40,  opacity: 0 }} 
@@ -81,10 +81,10 @@ const Portfolio = () => {
                  whileInView={{
                  y:0,
                  opacity: 1,
-                 transition: {duration: 1.1, ease: "easeInOut"}
+                 transition: {duration: 0.3,}
                  }}
-                viewport={{ once: true }}               
-                 className='portfolio_item bg-neutral-900 p-[1.4rem] rounded-2xl border-2 border-solid border-transparent hover:border-neutral-900 hover:bg-transparent transition duration-300 ease-in-out'>
+                 viewport={{ once: true }}               
+                 className='portfolio_item bg-neutral-900 p-[1.4rem] overflow-hidden rounded-2xl border-2 border-solid border-transparent hover:border-neutral-900 hover:bg-transparent transition duration-300 ease-in-out'>
                     <div className="portfolio_item-image rounded-2xl overflow-hidden">
                        <img src={image} alt=""  className=' w-full h-auto object-center'/>
                     </div>
@@ -101,26 +101,27 @@ const Portfolio = () => {
           }
 
            {showProjectDetails && (
-                    <div className=' fixed flex justify-center items-center z-40 bg-gray-900 bg-opacity-50 left-0 top-0 w-full h-full transition duration-400 ease-in-out'>
+                    <div className=' fixed flex justify-center items-center z-40 bg-black bg-opacity-75 left-0 top-0 w-full h-full transition duration-400 ease-in-out'>
                         
                     
                 {
                     selectedProject && (
                  
                     <motion.div 
-                    initial={{ y: 100,  opacity: 0 }} 
-                    whileInView={{
-                    y:0,
-                    opacity: 1,
-                    transition: {duration: 0.7, ease: "easeInOut"}
-                    }}
-                       className=' relative px-6 py-10 lg:p-8 rounded-[5px] text-white bg-slate-800 w-[80%] lg:w-[60%] mx-auto'>
-                        <div className=' flex lg:flex-row flex-col lg:gap-x-5 lg:gap-y-3 gap-3 w-full justify-between'>
-                           <div  onClick={handleIconCloseClick} className='absolute right-4 top-2 text-red-600 text-2xl cursor-pointer'>
+                        initial={{y: 100, opacity: 0}}
+                        whileInView={{
+                          y: 0,
+                          opacity: 1,
+                          transition: {duration: 0.9, ease: "easeInOut"}
+                        }}
+                        viewport={{ once: true }}  
+                       className=' relative px-6 py-12 lg:p-8 rounded-[5px] text-white bg-slate-800 w-[90%] lg:w-[60%] mx-auto overflow-hidden'>
+                        <div className=' flex lg:flex-row flex-col lg:gap-x-5 lg:gap-y-3 gap-3 w-full justify-between overflow-hidden'>
+                           <div  onClick={handleIconCloseClick} className='absolute right-4 top-3 text-white text-2xl cursor-pointer hover:text-orange-400 transition duration-300 ease-in-out'>
                               <IoCloseSharp/>
                            </div>                             
                            <div className=' relative flex-1 rounded-[5px]  w-full h-full group '>
-                             <img src={selectedProject.screenShots[currentIndex].img} className=' w-full h-[250px] lg:h-[340px] rounded-[5px] object-cover border-[1px] border-slate-500 transition duration-500' alt="" />
+                             <img src={selectedProject.screenShots[currentIndex].img} className=' w-full h-auto lg:h-[340px] rounded-[5px] object-cover border-[1px] border-slate-500 transition duration-500' alt="" />
                              <div className=' hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl text-white bg-black bg-opacity-75 rounded-full p-2 cursor-pointer'>
                                 <MdKeyboardArrowLeft  onClick={prevImage}/>
                              </div>

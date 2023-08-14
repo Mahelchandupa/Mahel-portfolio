@@ -77,21 +77,21 @@ const AboutMe = () => {
                 className=' rounded-md gap-y-3 flex flex-col items-center justify-center bg-[#2c2c6c] p-[2rem] hover:bg-transparent hover:border-[1px] hover:border-white hover:text-white cursor-pointer hover:transitio hover:ease-in-out'>
                     <p className=' text-lg'>Experience</p>
                     <SiXdadevelopers className=' text-xl'/>
-                    <p className=' text-slate-400'>Not Yet</p>
+                    <p className=' text-slate-400 text-center'>Not Yet</p>
                 </motion.div>
                 <motion.div 
                 variants={imgVarients}
                 className=' rounded-md gap-y-3 flex flex-col items-center justify-center bg-[#2c2c6c] p-[2rem] hover:bg-transparent hover:border-[1px] hover:border-white hover:text-white cursor-pointer hover:transitio hover:ease-in-out'>
                     <p className=' text-lg'>Clients</p>
                     <FiUsers className=' text-xl'/>
-                    <p className=' text-slate-400'>Not Yet</p>
+                    <p className=' text-slate-400 text-center'>Not Yet</p>
                 </motion.div>
                 <motion.div 
                 variants={imgVarients}
                 className=' rounded-md gap-y-3 flex flex-col items-center justify-center bg-[#2c2c6c] p-[2rem] hover:bg-transparent hover:border-[1px] hover:border-white hover:text-white cursor-pointer hover:transitio hover:ease-in-out'>
                     <p className=' text-lg'>Projects</p>
                     <VscFolderLibrary className=' text-xl'/>
-                    <p className=' text-slate-400'>2 Projects</p>
+                    <p className=' text-slate-400 text-center'>2 Projects</p>
                 </motion.div>
               </motion.div>
               <div className=' mt-10 lg:relative'>
@@ -104,7 +104,7 @@ const AboutMe = () => {
                      transition: {delay: 0.7 ,duration: 1.1, ease: "easeInOut"}
                    }}
                    viewport={{ once: true }}
-                className=' text-center lg:text-left lg:text-justify lg:w-full text-md mb-5'>
+                className=' text-center lg:text-left text-slate-100 text-justify lg:w-full text-[1rem] mb-5'>
                    Welcome to my portfolio! I'm an enthusiastic software engineering student with a strong passion for creative problem-solving. Throughout my academic journey, I've focused on web development, honing my skills in key languages like JavaScript, Python, and Java. 
                    These languages have empowered me to bring ideas to life and create user-centric web apps.I'm skilled in both front-end frameworks like React, and backend tools like Node.js. My experience includes designing efficient database solutions using MySQL and MongoDB.
                    I'm excited to showcase my projects, each reflecting my dedication to web development. Thanks for exploring my portfolio.                
@@ -160,25 +160,25 @@ const AboutMe = () => {
                  <div className='timeline-box flex-1 w-full '>
                   <div className='timeline py-[30px] px-[15px] border-2 border-slate-300 w-full relative rounded-lg	'>
                     {/* timeline item */}
-                    <div className="timeline-item relative pl-[37px] pb-[50px] before:[''] before:w-[1px] before:absolute before:h-full before:left-[7px] before:top-0 before:bg-red-500">
+                    <div className="timeline-item relative pl-[37px] pb-[25px] lg:pb-[50px] before:[''] before:w-[1px] before:absolute before:h-full before:left-[7px] before:top-0 before:bg-red-500">
                        <div className="circle-dot absolute w-[15px] h-[15px] left-0 top-0 bg-red-500 rounded-full"></div>
                        <div className=' flex flex-row '>
                          <CiCalendarDate  className=' text-xl mr-2 text-sky-300'/> 
                          <h3 className='timeline-date mb-4 text-sky-300 '>11/2023 - Present</h3>
                        </div>                  
-                       <h4 className='timeline-title text-xl mb-5 capitalize'>Bachelor Of Science (Hons) In Computing</h4>
-                       <p className=' text-gray-400'>Pursuing B.Sc. (Hons) in Computing since Nov 2023. Gaining comprehensive knowledge of computer science fundamentals, programming, and problem-solving for a promising tech-focused future.</p>
+                       <h4 className='timeline-title text-lg lg:text-xl mb-5 capitalize'>Bachelor Of Science (Hons) In Computing</h4>
+                       <p className=' text-gray-400 text-sm lg:text-md'>Pursuing B.Sc. (Hons) in Computing since Nov 2023. Gaining comprehensive knowledge of computer science fundamentals, programming, and problem-solving for a promising tech-focused future.</p>
                     </div>
 
                      {/* timeline item */}
-                     <div className="timeline-item relative pl-[37px] pb-[50px] before:[''] before:w-[1px] before:absolute before:h-full before:left-[7px] before:top-0 before:bg-red-500">
+                     <div className="timeline-item relative pl-[37px] pb-[25px] lg:pb-[50px] before:[''] before:w-[1px] before:absolute before:h-full before:left-[7px] before:top-0 before:bg-red-500">
                        <div className="circle-dot absolute w-[15px] h-[15px] left-0 top-0 bg-red-500 rounded-full"></div>
                        <div className=' flex flex-row '>
-                       <CiCalendarDate  className=' text-xl mr-2 text-sky-300'/> 
-                       <h3 className='timeline-date mb-4 text-sky-300 '>11/2022 - 09/2023</h3>
+                       <CiCalendarDate  className=' text-lg lg:text-xl mr-2 text-sky-300'/> 
+                       <h3 className='timeline-date mb-4 text-sky-300 '>09/2022 - 10/2023</h3>
                        </div>
-                       <h4 className='timeline-title text-xl mb-5 capitalize'>Higher National Diploma In Software EngIineering</h4>
-                       <p className=' text-gray-400'>Completed Software Engineering HND (Nov 2022 - Sep 2023). Acquired practical skills in software development, problem-solving, and teamwork, setting a strong foundation for a tech career.</p>
+                       <h4 className='timeline-title text-lg lg:text-xl mb-5 capitalize'>Higher National Diploma In Software EngIineering</h4>
+                       <p className=' text-gray-400 text-sm lg:text-md'>Completed Software Engineering HND (Nov 2022 - Sep 2023). Acquired practical skills in software development, problem-solving, and teamwork, setting a strong foundation for a tech career.</p>
                     </div>
 
                      {/* timeline item */}
@@ -186,10 +186,10 @@ const AboutMe = () => {
                        <div className="circle-dot absolute w-[15px] h-[15px] left-0 top-0 bg-red-500 rounded-full"></div>
                        <div className=' flex flex-row '>
                           <CiCalendarDate  className=' text-xl mr-2 text-sky-300'/> 
-                          <h3 className='timeline-date mb-4 text-sky-300 '>04/2018 - 10/2020</h3>
+                          <h3 className='timeline-date mb-4 text-sky-300 '>04/2021 - 09/2022</h3>
                        </div>
                        <h4 className='timeline-title text-xl mb-5 capitalize'>Diploma in Computer System Design</h4>
-                       <p className=' text-gray-400'>Earned Computer System Design Diploma (Apr 2018 - Oct 2020). Developed expertise in system architecture, hardware-software integration, and project management for versatile tech proficiency.</p>
+                       <p className=' text-gray-400 text-sm lg:text-md'>Earned Computer System Design Diploma (Apr 2018 - Oct 2020). Developed expertise in system architecture, hardware-software integration, and project management for versatile tech proficiency.</p>
                     </div>
 
                   </div>

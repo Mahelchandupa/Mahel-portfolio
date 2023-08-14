@@ -27,7 +27,7 @@ export const Navbar = () => {
     
     const mobilNavVarient = {
         exit: {
-            x: 300,
+            y: "-100%",
             opacitiy: 0,
             transition: {
                 duration: 0.3,
@@ -109,8 +109,8 @@ export const Navbar = () => {
                     <a href="#contact">Contact</a>
                 </li>
         </ul>
-        <div onClick={ () => {setMenuIconClick(true)}} className="lg:hidden flex justify-center items-center bg-slate-800 hover:bg-slate-900 transition rounded-full w-16 h-16 cursor-pointer">
-          <CgMenu className=" w-8 h-8 text-white cursor-pointer"/>
+        <div className="lg:hidden flex justify-center items-center bg-slate-800 hover:bg-slate-900 transition rounded-full w-16 h-16 cursor-pointer">
+          <CgMenu onClick={ () => {setMenuIconClick(true)}} className=" w-8 h-8 text-white cursor-pointer"/>
         </div>
 
       </motion.div>
@@ -121,14 +121,14 @@ export const Navbar = () => {
             
             <motion.div 
             variants={mobilNavVarient}
-            initial={{x: 300, opacity: 0}}
-            animate={{x:0, opacity: 1}}
+            initial={{y: "-100%", opacity: 0}}
+            animate={{y: 0, opacity: 1}}
             transition={{duration: .3}}
             exit="exit"
-            className={`lg:hidden fixed top-0 w-[300px] right-0 bg-[url('https://github.githubassets.com/images/modules/site/home-campaign/bg-stars-1.webp')] bg-center bg-contain h-[100vh] bg-sky-950 z-10 `}>
+            className={`lg:hidden fixed top-0 w-screen flex items-center justify-center bg-[url('https://github.githubassets.com/images/modules/site/home-campaign/bg-stars-1.webp')] bg-center bg-contain h-[100vh] bg-black z-10 `}>
                 <motion.ul 
                    variants={ulVarient}
-                   className=" overflow-hidden py-72 flex flex-col justify-center items-center gap-y-10 text-xl text-white">
+                   className=" overflow-hidden py-2 flex flex-col justify-center items-center gap-y-10 text-xl text-white">
                     <motion.li 
                     variants={liVariant}
                     onClick={ () => {setMenuIconClick(false)}}
@@ -165,12 +165,11 @@ export const Navbar = () => {
                         <a href="#contact">Contact</a>
                     </motion.li>
                 </motion.ul>
-                <CgClose onClick={ () => {setMenuIconClick(false)}}  className=" absolute right-8 top-8 w-8 h-8 text-white cursor-pointer hover:text-red-500 transition duration-300 ease-in"/>
+                <CgClose onClick={ () => {setMenuIconClick(false)}}  className=" absolute right-8 top-8 w-8 h-8 text-white cursor-pointer hover:text-orange-400 transition duration-300 ease-in-out"/>
         </motion.div>  
         )
       }
       </AnimatePresence>
-      <div onClick={ () => {setMenuIconClick(false)}}  className={`${menuIconClick ? 'block' : 'hidden'} w-full h-full fixed bg-black bg-opacity-75 z-5`}></div>
     </nav>
     
     )
