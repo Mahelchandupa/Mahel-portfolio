@@ -50,7 +50,7 @@ const Hero = () => {
       // style={{ fontSize: '2em', display: 'inline-block', color: 'yellow', textAlign: 'center'}}
       repeat={Infinity}
     /></p>
-              <p className=' leading-loose text-md lg:text-xl text-gray-400 lg:w-[600px] lg:text-justify text-center lg:mt-3 min-[320px]:hidden max-[500px]:block'>
+              <p className=' leading-loose text-md lg:text-xl text-gray-400 lg:w-[600px] lg:text-justify text-center lg:mt-3 min-[300px]:text-[0.7rem] max-[450px]:text-md'>
                Hello and welcome to my portfolio! I am an undergraduate software engineering student with a passion for coding and problem-solving. 
                My focus is on web app development.
                </p>
