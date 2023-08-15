@@ -68,8 +68,8 @@ const Contact = () => {
                 <BsWhatsapp className=' font-bold text-[1.4rem] mb-4'/>  
               </div>
               <h4 className=' lg:text-xl text-lg font-bold'>WhatsApp</h4>
-              <h5 className=' mt-2 text-[0.9rem]'>+789092063</h5>
-              <a  className=" cursor-pointer hover:text-sky-300 tansition duration-300 text-blue-700 mt-[0.7rem] inline-block text-[1rem]" href="https://api.whatsapp.com/send?phone=0789092063" rel='noopener noreferrer' target='_blank'>Send a message</a>
+              <h5 className=' mt-2 text-[0.9rem]'>+94789092063</h5>
+              <a  className=" cursor-pointer hover:text-sky-300 tansition duration-300 text-blue-700 mt-[0.7rem] inline-block text-[1rem]" href="https://api.whatsapp.com/send?phone=94789092063" rel='noopener noreferrer' target='_blank'>Send a message</a>
           </article>
 
         </motion.div>
