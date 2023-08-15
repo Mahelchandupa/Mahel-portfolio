@@ -23,9 +23,9 @@ const Hero = () => {
       ease: "easeInOut",
       delay: 0.2,
     }}
-    className=" bg-slate-950 w-full h-screen flex items-center overflow-hidden bg-center bg-contain bg-[url('https://github.githubassets.com/images/modules/site/home-campaign/bg-stars-1.webp')]">
+    className=" bg-slate-950 w-full lg:h-screen h-auto flex items-center overflow-hidden bg-center bg-contain bg-[url('https://github.githubassets.com/images/modules/site/home-campaign/bg-stars-1.webp')]">
       <div  className=' container mx-auto'>   
-        <div className='px-5  flex flex-col justify-center lg:flex-row lg:justify-evenly items-center'> 
+        <div className='px-5 flex flex-col justify-center lg:flex-row lg:justify-evenly items-center'> 
            {/* text */}
            <motion.div 
               initial={{ x: -400, opacity: 0 }}  // Start from 20px above its normal position
@@ -34,7 +34,7 @@ const Hero = () => {
                duration: 0.9,
                delay: 1.4,
               }}
-              className=' text-white font-mono mb-5 '>
+              className=' text-white font-mono py-[100px]'>
               <h1 className=' font-mono text-5xl lg:text-7xl xl:text-8xl mb-5 lg:mb-3 lg:text-left text-center md:text-center min-[320px]:text-4xl'>Hi,I'm Mahel</h1>
               <p className=' text-center lg:text-left text-2xl md:text-2xl lg:text-4xl text-yellow-400 min-[320px]:text-xl'><TypeAnimation
       sequence={[
@@ -64,7 +64,7 @@ const Hero = () => {
                    stiffness: 110,}
                  }}
                  viewport={{ once: true }}
-                class=" flex items-center justify-center lg:justify-start my-5 lg:my-5">
+                class=" flex items-center justify-center lg:justify-start mt-5 lg:my-5">
                     <a class="text-black  px-4 py-3 bg-[#4db5ff] rounded-md hover:bg-transparent hover:border hover:border-white hover:text-white cursor-pointer transition ease-in-out" href={CV} download>Download CV</a>
               </motion.div> 
            </motion.div>
