@@ -104,7 +104,7 @@ const AboutMe = () => {
                      transition: {delay: 0.7 ,duration: 1.1, ease: "easeInOut"}
                    }}
                    viewport={{ once: true }}
-                className=' text-center lg:text-left text-slate-100 text-justify lg:w-full text-[1rem] mb-5'>
+                className='  lg:text-left text-slate-400 text-justify lg:w-full text-[1rem] mb-5'>
                    Welcome to my portfolio! I'm an enthusiastic software engineering student with a strong passion for creative problem-solving. Throughout my academic journey, I've focused on web development, honing my skills in key languages like JavaScript, Python, and Java. 
                    These languages have empowered me to bring ideas to life and create user-centric web apps.I'm skilled in both front-end frameworks like React, and backend tools like Node.js. My experience includes designing efficient database solutions using MySQL and MongoDB.
                    I'm excited to showcase my projects, each reflecting my dedication to web development. Thanks for exploring my portfolio.                

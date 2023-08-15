@@ -49,8 +49,8 @@ const Contact = () => {
               <div className=' flex justify-center'>
                 <MdOutlineEmail className=' font-bold text-[1.4rem] mb-4'/>
               </div>
-              <h4 className=' text-xl font-bold'>Email</h4>
-              <h5 className=' mt-2'>mahelchandupa1013@gmail.com</h5>
+              <h4 className=' lg:text-xl text-lg font-bold'>Email</h4>
+              <h5 className=' mt-2 text-[0.9rem]'>mahelchandupa1013@gmail.com</h5>
               <a  className=" cursor-pointer hover:text-sky-300 tansition duration-300 text-blue-700 mt-[0.7rem] inline-block text-[1rem]" href="mailto:mahelchandupa1013@gmail.com" rel='noopener noreferrer' target='_blank'>Send a message</a>
           </article>
 
@@ -58,8 +58,8 @@ const Contact = () => {
               <div className=' flex justify-center'>
                 <RiMessengerLine className=' font-bold text-[1.4rem] mb-4'/>
               </div>
-              <h4 className=' text-xl font-bold'>Messenger</h4>
-              <h5 className=' mt-2'>mahel</h5>
+              <h4 className=' lg:text-xl text-lg font-bold'>Messenger</h4>
+              <h5 className=' mt-2 text-[0.9rem]'>mahel</h5>
               <a  className=" cursor-pointer hover:text-sky-300 tansition duration-300 text-blue-700 mt-[0.7rem] inline-block text-[1rem]" href="https://m.me/mahel.chandupa" rel='noopener noreferrer' target='_blank' >Send a message</a>
           </article>
 
@@ -67,8 +67,8 @@ const Contact = () => {
               <div className=' flex justify-center'>
                 <BsWhatsapp className=' font-bold text-[1.4rem] mb-4'/>  
               </div>
-              <h4 className=' text-xl font-bold'>WhatsApp</h4>
-              <h5 className=' mt-2'>+789092063</h5>
+              <h4 className=' lg:text-xl text-lg font-bold'>WhatsApp</h4>
+              <h5 className=' mt-2 text-[0.9rem]'>+789092063</h5>
               <a  className=" cursor-pointer hover:text-sky-300 tansition duration-300 text-blue-700 mt-[0.7rem] inline-block text-[1rem]" href="https://api.whatsapp.com/send?phone=0789092063" rel='noopener noreferrer' target='_blank'>Send a message</a>
           </article>
 

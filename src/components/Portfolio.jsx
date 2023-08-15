@@ -131,11 +131,11 @@ const Portfolio = () => {
                         
                            </div>
                            <div className=' flex-1 w-full h-full'>
-                             <h1 className=' text-white font-bold text-2xl text-center lg:text-left'>{selectedProject.title}</h1>
+                             <h1 className=' text-white font-bold text-xl text-center lg:text-left'>{selectedProject.title}</h1>
                              <p className=' text-slate-400 text-sm my-4 hidden lg:block text-center lg:text-left'>{selectedProject.desc}</p>
                              <div className=' mt-6 text-slate-400 '>
-                                <p className='mb-3 text-center lg:text-left'><span className=' text-slate-200'>Technology -</span> {selectedProject.technology}</p>
-                                <p className=' mb-3 text-center lg:text-left'><span className=' text-slate-200'>Role -</span> {selectedProject.role}</p>
+                                <p className='mb-3 text-center lg:text-left text-[0.9rem]'><span className=' text-slate-200'>Technology -</span> {selectedProject.technology}</p>
+                                <p className=' mb-3 text-center lg:text-left text-[0.9rem]'><span className=' text-slate-200'>Role -</span> {selectedProject.role}</p>
                                 <div className='flex flex-row justify-center lg:justify-start gap-6 mt-6 lg:mt-10'>
                                     <a className=' bg-orange-700 hover:bg-transparent hover:border-orange-700 transition duration-300 ease-in-out border-2 border-transparent w-[120px] flex items-center justify-center py-2  rounded-3xl cursor-pointer text-white' href={selectedProject.demo} rel='noopener noreferrer' target='_blank'>Visit</a>
                                     <a className=' bg-sky-700 hover:bg-transparent hover:border-sky-700 transition duration-300 ease-in-out border-2 border-transparent w-[120px] flex items-center justify-center py-2  rounded-3xl cursor-pointer text-white'  href={selectedProject.github} rel='noopener noreferrer' target='_blank'>Github</a>
