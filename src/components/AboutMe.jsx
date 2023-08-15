@@ -177,7 +177,7 @@ const AboutMe = () => {
                        <CiCalendarDate  className=' text-lg lg:text-xl mr-2 text-sky-300'/> 
                        <h3 className='timeline-date mb-4 text-sky-300 '>09/2022 - 10/2023</h3>
                        </div>
-                       <h4 className='timeline-title text-lg lg:text-xl mb-5 capitalize'>Higher National Diploma In Software EngIineering</h4>
+                       <h4 className='timeline-title text-lg lg:text-xl mb-5 capitalize'>Higher National Diploma In Software Engineering</h4>
                        <p className=' text-gray-400 text-sm lg:text-md'>Completed Software Engineering HND (Nov 2022 - Sep 2023). Acquired practical skills in software development, problem-solving, and teamwork, setting a strong foundation for a tech career.</p>
                     </div>
 
