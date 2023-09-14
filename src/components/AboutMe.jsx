@@ -135,7 +135,7 @@ const AboutMe = () => {
               transition: {duration: 1.4, ease: "easeInOut"}
             }}
             viewport={{ once: true }}
-            className=' order-1 lg:w-full lg:my-auto w-[65%] m-auto mb-12 sm:m-0 md:w-[50%] md:mb-12 md:mx-auto rounded-[2rem] grid place-items-center aspect-square bg-slate-800 rounded-lg'>
+            className=' order-1 lg:w-full lg:my-auto w-[65%] m-auto mb-12 sm:m-0 md:w-[50%] md:mb-12 md:mx-auto rounded-[2rem] grid place-items-center aspect-square bg-slate-800'>
                 <img className=' block bg-cover h-[100%] w-full origin-center rounded-[2rem] rotate-12 hover:rotate-0 transition ease-in-out' src={MyImage} alt="" />
             </motion.div>
 
