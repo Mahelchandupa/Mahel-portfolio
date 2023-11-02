@@ -105,9 +105,13 @@ const AboutMe = () => {
                    }}
                    viewport={{ once: true }}
                 className='  lg:text-left text-slate-400 text-justify lg:w-full text-[1rem] mb-5'>
-                   Welcome to my portfolio! I'm an enthusiastic software engineering student with a strong passion for creative problem-solving. Throughout my academic journey, I've focused on web development, honing my skills in key languages like JavaScript, Python, and Java. 
-                   These languages have empowered me to bring ideas to life and create user-centric web apps.I'm skilled in both front-end frameworks like React, and backend tools like Node.js. My experience includes designing efficient database solutions using MySQL and MongoDB.
-                   I'm excited to showcase my projects, each reflecting my dedication to web development. Thanks for exploring my portfolio.                
+                   Welcome to my portfolio! I'm Mahel, a passionate undergraduate student pursuing a degree in Software Engineering with a dedicated focus on web application development. 
+                   I thrive on turning innovative ideas into functional, user-friendly web solutions that make a positive impact. 
+                   My academic journey has equipped me with a solid foundation in programming languages like <span className="text-white">HTML</span>,<span className="text-white"> CSS</span>,<span className="text-white"> JavaScript</span>,<span className="text-white"> PHP</span>,<span className="text-white"> SQL</span>,<span className="text-white"> MongoDB</span>,<span className="text-white"> Java</span>,<span className="text-white"> C#</span>,<span className="text-white"> Python</span> and various frameworks such as <span className="text-white">ReactJs</span>, <span className="text-white">Tailwind CSS</span>, and <span className="text-white">Bootstrap</span>. 
+                   I'm continuously expanding my knowledge to stay ahead in the fast-evolving tech landscape. 
+                   During my studies, I've had the opportunity to work on diverse projects, enhancing my skills in designing and developing dynamic web applications. 
+                   I'm excited to showcase my projects, each reflecting my dedication to web development. Thank you for exploring my portfolio
+                
               </motion.p>
 
               <motion.div 
@@ -189,7 +193,7 @@ const AboutMe = () => {
                           <h3 className='timeline-date mb-4 text-sky-300 '>04/2021 - 09/2022</h3>
                        </div>
                        <h4 className='timeline-title text-xl mb-5 capitalize'>Diploma in Computer System Design</h4>
-                       <p className=' text-gray-400 text-sm lg:text-md'>Earned Computer System Design Diploma (Apr 2018 - Oct 2020). Developed expertise in system architecture, hardware-software integration, and project management for versatile tech proficiency.</p>
+                       <p className=' text-gray-400 text-sm lg:text-md'>Earned Computer System Design Diploma (Apr 2021 - Sep 2022). Developed expertise in system architecture, hardware-software integration, and project management for versatile tech proficiency.</p>
                     </div>
 
                   </div>

@@ -1,10 +1,4 @@
 // images
-import IMG1 from '../src/assest/game-distribution.webp'
-import IMG2 from '../src/assest/portfolio2.jpg'
-import IMG3 from '../src/assest/portfolio3.jpg'
-import IMG4 from '../src/assest/portfolio4.jpg'
-import IMG5 from '../src/assest/portfolio5.png'
-import IMG6 from '../src/assest/portfolio6.jpg'
 
 import EManagment1 from '../src/assest/project images/e managment 1.png'
 import EManagment2 from '../src/assest/project images/e managment 2.png'
@@ -40,10 +34,21 @@ import Ums1 from '../src/assest/project images/Ums1.png'
 import Ums2 from '../src/assest/project images/Ums2.png'
 import Ums3 from '../src/assest/project images/Ums3.png'
 
+import EcommerceUI1 from '../src/assest/project images/e-commerce-ui-1.png'
+import EcommerceUI2 from '../src/assest/project images/e-commerce-ui-2.png'
+import EcommerceUI3 from '../src/assest/project images/e-commerce-ui-3.png'
+import EcommerceUI4 from '../src/assest/project images/e-commerce-ui-4.png'
+
+import AdvanceShoppingCart1 from '../src/assest/project images/advance-shopping-cart-1.png'
+import AdvanceShoppingCart2 from '../src/assest/project images/advance-shopping-cart-2.png'
+
+import HospitalQueue1 from '../src/assest/project images/hospital-queue2.png'
+
+
 export const portfolioData = [
     {
         id: 1,
-        image: IMG5,
+        image: SocialFake1,
         title: 'Facebook UI Clone',
         github: 'https://github.com/Mahelchandupa/Facebook-UI-Clone.git',
         demo: 'https://fackesocial-ui-clone.netlify.app',
@@ -65,7 +70,7 @@ export const portfolioData = [
     
        {
         id: 2,
-        image: IMG6,
+        image: NewFlash1,
         title: 'Blog App - NEW FLASH',
         github: 'https://newflash.netlify.app',
         demo: 'https://newflash.netlify.app',
@@ -87,7 +92,7 @@ export const portfolioData = [
     
        {
         id: 3,
-        image: IMG2,
+        image: Ehub1,
         title: 'Ehub Web App',
         github: 'https://ehub-fake.netlify.app',
         demo: 'https://ehub-fake.netlify.app',
@@ -112,7 +117,7 @@ export const portfolioData = [
        
        {
         id: 4,
-        image: IMG3,
+        image: YtFake1,
         title: 'Youtube UI Clone',
         github: 'https://yt-fake.netlify.app',
         demo: 'https://yt-fake.netlify.app',
@@ -134,7 +139,7 @@ export const portfolioData = [
        },
        {
         id: 5,
-        image: IMG1,
+        image: GamePlatform2,
         title: 'Game Distribution Platform',
         github: 'https://github.com/Mahelchandupa/Game-Distribution-Platform.git',
         demo: 'https://github.com/Mahelchandupa/Game-Distribution-Platform.git',
@@ -165,7 +170,7 @@ export const portfolioData = [
     
        {
         id: 6,
-        image: IMG4,
+        image: HospitalQueue1,
         title: 'Hospital Queue Managment',
         github: 'https://github.com/Mahelchandupa/University-Managment-System.git',
         demo: 'https://github.com/Mahelchandupa/University-Managment-System.git',
@@ -174,14 +179,14 @@ export const portfolioData = [
         role: 'Fronet End',
         screenShots: [
             {
-                img: IMG4
+                img: HospitalQueue1
             },
         ]
        },
     
        {
         id: 7,
-        image: IMG6,
+        image: Ums1,
         title: 'University Managment',
         github: 'https://github.com/Mahelchandupa/University-Managment-System.git',
         demo: 'https://github.com/Mahelchandupa/University-Managment-System.git',
@@ -203,7 +208,7 @@ export const portfolioData = [
     
        {
         id: 8,
-        image: IMG5,
+        image: EManagment1,
         title: 'E-Books Managment System',
         github: 'https://github.com/Mahelchandupa/E-Books-Managment-System.git',
         demo: 'https://github.com/Mahelchandupa/E-Books-Managment-System.git',
@@ -226,6 +231,50 @@ export const portfolioData = [
             {
                 img: EManagment5
             }
+        ]
+       },
+
+       {
+        id: 9,
+        image: EcommerceUI1,
+        title: 'E-Commerce UI Design',
+        github: 'https://github.com/Mahelchandupa/Responsive-E-Commerce-Web-Site-UI',
+        demo: 'https://fashion-bug.netlify.app/',
+        desc: 'Fully Responsive E-Commerce Website UI Design',
+        technology: 'Html, CSS, javascript',
+        role: 'Fronet End',
+        screenShots: [
+            {
+                img: EcommerceUI1
+            },
+            {
+                img: EcommerceUI2
+            },
+            {
+                img:EcommerceUI3
+            },
+            {
+                img: EcommerceUI4
+            },
+        ]
+       },
+
+       {
+        id: 10,
+        image: AdvanceShoppingCart1,
+        title: 'Advance Shopping Cart',
+        github: 'https://github.com/Mahelchandupa/Advance-Shopping-Cart',
+        demo: 'https://advance-shopping-cart.netlify.app/',
+        desc: `This project serves as an illustrative example for harnessing the power of React's useContext and useReducer hooks to build a feature-rich e-commerce application`,
+        technology: 'ReactJs, CSS',
+        role: 'Fronet End',
+        screenShots: [
+            {
+                img: AdvanceShoppingCart1
+            },
+            {
+                img: AdvanceShoppingCart2
+            },
         ]
        },
     ]

@@ -5,8 +5,8 @@ import {motion} from 'framer-motion'
 import {RiHtml5Fill} from 'react-icons/ri'
 import {TfiCss3} from 'react-icons/tfi'
 import {TbBrandJavascript} from 'react-icons/tb'
-import {FaReact} from 'react-icons/fa'
-import {SiTailwindcss} from 'react-icons/si'
+import {FaJava, FaReact} from 'react-icons/fa'
+import {SiCsharp, SiPython, SiTailwindcss} from 'react-icons/si'
 import {FaBootstrap} from 'react-icons/fa'
 
 
@@ -77,7 +77,7 @@ const Experience = () => {
                      transition: {duration: 1.2, ease: "easeInOut"}
                    }}
                   viewport={{ once: true }}
-              className=' border-t-[1px] border-b-[1px] text-white border-orange-400 w-full text-xl px-5 py-1 mb-5 text-center min-[320px]:text-lg'>Frontend Developer</motion.h1>
+              className=' border-t-[1px] border-b-[1px] text-white border-orange-400 w-full text-xl px-5 py-1 mb-5 text-center min-[320px]:text-lg'>Frontend Web Technology</motion.h1>
               <motion.div 
                    variants={containerVarients}
                    initial="initial"
@@ -135,7 +135,7 @@ const Experience = () => {
                 transition: {duration: 1.2, ease: "easeInOut"}
               }}
              viewport={{ once: true }}
-              className=' border-t-[1px] border-b-[1px] text-white border-orange-400 w-full text-xl px-5 py-1 mb-5 text-center min-[320px]:text-lg'>Backend Developer</motion.h1>
+              className=' border-t-[1px] border-b-[1px] text-white border-orange-400 w-full text-xl px-5 py-1 mb-5 text-center min-[320px]:text-lg'>Backend Technology</motion.h1>
               <motion.div 
                 variants={containerVarients}
                 initial="initial"
@@ -169,6 +169,43 @@ const Experience = () => {
             </motion.div>
             </div>
 
+            <div className=''>
+              <motion.h1 
+              initial={{ x: 300, opacity: 0 }} 
+              whileInView={{
+                x: 0,
+                opacity: 1,
+                delay: 0.5,
+                transition: {duration: 1.2, ease: "easeInOut"}
+              }}
+             viewport={{ once: true }}
+              className=' border-t-[1px] border-b-[1px] text-white border-orange-400 w-full text-xl px-5 py-1 mb-5 text-center min-[320px]:text-lg'>Software Technology</motion.h1>
+              <motion.div 
+                variants={containerVarients}
+                initial="initial"
+                whileInView="whileInView"
+                viewport={{ once: true }}
+                className=' mt-8 flex flex-row justify-evenly items-center flex-wrap gap-8'>
+                <motion.div 
+                 variants={imgVarients}          
+                 className=' flex flex-col items-center bg-transparent w-40 h-36 min-[320px]:w-32 rounded-lg justify-center gap-y-4'>
+                  <FaJava className=' min-[320px]:text-5xl text-6xl text-red-400 animate-[skillIcons_5s_ease-in-out_infinite]'/>
+                  <h1 className=' text-xl text-slate-200 capitalize text-center'>Java</h1>
+                </motion.div>
+                <motion.div 
+                 variants={imgVarients}          
+                 className=' flex flex-col items-center bg-transparent w-40 h-36 min-[320px]:w-32 rounded-lg justify-center gap-y-4'>
+                  <SiCsharp className=' min-[320px]:text-5xl text-6xl text-blue-500 animate-[skillIcons_5s_ease-in-out_infinite]'/>
+                  <h1 className=' text-xl text-slate-200 text-center'>C#</h1>
+                </motion.div>             
+                <motion.div 
+                 variants={imgVarients}          
+                 className=' flex flex-col items-center bg-transparent w-40 h-36 min-[320px]:w-32 rounded-lg justify-center gap-y-4'>
+                  <SiPython className=' min-[320px]:text-5xl text-6xl text-green-600 text-slate-500 animate-[skillIcons_5s_ease-in-out_infinite]'/>
+                  <h1 className=' text-xl text-slate-200 text-center'>Python</h1>
+                </motion.div>
+            </motion.div>
+            </div>
 
          </div>
 
