@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 import {RiHtml5Fill} from 'react-icons/ri'
 import {TfiCss3} from 'react-icons/tfi'
 import {TbBrandJavascript} from 'react-icons/tb'
-import {FaJava, FaReact} from 'react-icons/fa'
+import {FaGitAlt, FaJava, FaReact} from 'react-icons/fa'
 import {SiCsharp, SiPython, SiTailwindcss} from 'react-icons/si'
 import {FaBootstrap} from 'react-icons/fa'
 
@@ -201,9 +201,15 @@ const Experience = () => {
                 <motion.div 
                  variants={imgVarients}          
                  className=' flex flex-col items-center bg-transparent w-40 h-36 min-[320px]:w-32 rounded-lg justify-center gap-y-4'>
-                  <SiPython className=' min-[320px]:text-5xl text-6xl text-green-600 text-slate-500 animate-[skillIcons_5s_ease-in-out_infinite]'/>
+                  <SiPython className=' min-[320px]:text-5xl text-6xl text-green-600 animate-[skillIcons_5s_ease-in-out_infinite]'/>
                   <h1 className=' text-xl text-slate-200 text-center'>Python</h1>
                 </motion.div>
+                <motion.div 
+                 variants={imgVarients}          
+                 className=' flex flex-col items-center bg-transparent w-40 h-36 min-[320px]:w-32 rounded-lg justify-center gap-y-4'>
+                  <FaGitAlt className=' min-[320px]:text-5xl text-6xl text-orange-600 animate-[skillIcons_5s_ease-in-out_infinite]'/>
+                  <h1 className=' text-xl text-slate-200 text-center'>Git</h1>
+                </motion.div>              
             </motion.div>
             </div>
 

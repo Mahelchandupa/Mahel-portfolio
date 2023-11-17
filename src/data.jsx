@@ -44,6 +44,15 @@ import AdvanceShoppingCart2 from '../src/assest/project images/advance-shopping-
 
 import HospitalQueue1 from '../src/assest/project images/hospital-queue2.png'
 
+import NetflixClone1 from '../src/assest/project images/NetflixClone1.png'
+import NetflixClone2 from '../src/assest/project images/NetflixClone2.png'
+import NetflixClone3 from '../src/assest/project images/NetflixClone3.png'
+
+import BlogApp1 from '../src/assest/project images/BlogApp1.png'
+import BlogApp2 from '../src/assest/project images/BlogApp2.png'
+import BlogApp3 from '../src/assest/project images/BlogApp3.png'
+import BlogApp4 from '../src/assest/project images/BlogApp4.png'
+
 
 export const portfolioData = [
     {
@@ -275,6 +284,53 @@ export const portfolioData = [
             {
                 img: AdvanceShoppingCart2
             },
+        ]
+       },
+
+        {
+        id: 11,
+        image: BlogApp1,
+        title: 'Blogs App',
+        github: 'https://github.com/Mahelchandupa/Blog-App.git',
+        demo: 'https://github.com/Mahelchandupa/Blog-App.git',
+        desc: `Explore a sophisticated full-stack blog website developed using a modern technology stack. This project harnesses the power of React.js for the front-end, Node.js for the back-end, MongoDB for the database, and CSS for styling.The website boasts a range of features, including user authentication for seamless registration and profile management. Authenticated users can effortlessly create and edit blog posts, while the search functionality enables users to find posts by keywords or topics. With a responsive design, the website ensures a seamless and enjoyable experience across various screen sizes.`,
+        technology: 'ReactJs, NodeJs, MongoDB, CSS',
+        role: 'Fronet End & Back End',
+        screenShots: [
+            {
+                img: BlogApp1
+            },
+            {
+                img: BlogApp2
+            },
+            {
+                img: BlogApp3
+            },
+            {
+                img: BlogApp4
+            }
+        ]
+       },
+
+        {
+        id: 12,
+        image: NetflixClone2,
+        title: 'Netflix Clone',
+        github: 'https://github.com/Mahelchandupa/Netflix-Clone.git',
+        demo: 'https://github.com/Mahelchandupa/Netflix-Clone.git',
+        desc: `This web application replicates the popular Netflix streaming platform and was created as a practical learning experience for integrating APIs and working with Firebase for backend functionality.`,
+        technology: 'ReactJs, Tailwind CSS, Firebase',
+        role: 'Fronet End & Back End',
+        screenShots: [
+            {
+                img: NetflixClone1
+            },
+            {
+                img: NetflixClone2
+            },
+            {
+                img: NetflixClone3
+            }
         ]
        },
     ]
