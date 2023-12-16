@@ -158,7 +158,7 @@ const AboutMe = () => {
                  transition: {duration: 1.4, ease: "easeInOut"}
                }}
               viewport={{ once: true }}
-               className=' text-white flex-1 lg:mx-40 overflow-hidden'>
+               className=' text-white flex-1 overflow-hidden'> {/*lg:mx-40 */}
                <h2 className=' mb-[30px] text-[24px]'>Education</h2>
                <div className=''>
                  <div className='timeline-box flex-1 w-full '>
@@ -202,7 +202,7 @@ const AboutMe = () => {
            </motion.div>
 
            {/* Experience */}
-         { /* <motion.div 
+           <motion.div 
               initial={{ x: 200, opacity: 0 }} 
               whileInView={{
                 x: 0,
@@ -210,46 +210,39 @@ const AboutMe = () => {
                 delay: 1.5,
                 transition: {duration: 1.4, ease: "easeInOut"}
               }}
+              viewport={{ once: true }}
               className=' text-white flex-1'>
                <h2 className=' mb-[30px] text-[24px]'>Experience</h2>
                <div className=''>
                  <div className='timeline-box flex-1 w-full '>
                   <div className='timeline py-[30px] px-[15px] border-2 border-slate-300 w-full relative rounded-lg	'>
                    
-                    <div className="timeline-item relative pl-[37px] pb-[50px] before:[''] before:w-[1px] before:absolute before:h-full before:left-[7px] before:top-0 before:bg-red-500">
+                    <div className="timeline-item relative pl-[37px] pb-[20px] before:[''] before:w-[1px] before:absolute before:h-full before:left-[7px] before:top-0 before:bg-red-500">
                        <div className="circle-dot absolute w-[15px] h-[15px] left-0 top-0 bg-red-500 rounded-full"></div>
                        <div className=' flex flex-row '>
                          <CiCalendarDate  className=' text-xl mr-2 text-sky-300'/> 
-                         <h3 className='timeline-date mb-4 text-sky-300 '>2023 - 2024</h3>
-                       </div>                  
-                       <h4 className='timeline-title text-xl mb-5 capitalize'>Master in computing</h4>
-                       <p className=' text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur perferendis excepturi iure reiciendis ullam nobis.</p>
+                         <h3 className='timeline-date mb-4 text-sky-300 '>11/2023 - Present</h3>
+                       </div>             
+                       <h4 className='timeline-title text-xl mb-1 capitalize'>Full Stack Developer</h4>
+                       <p className=' mb-5 text-yellow-300 font-semibold'>Ones & Zeros - Internship</p>
+                       <p className=' text-gray-400 text-sm lg:text-md'>
+                         As a Full Stack Developer intern at Ones & Zeros, I excel in both front-end and back-end development. Employing ReactJS, CSS, and Material UI for a compelling user interface, I ensure responsive design across devices. <br /><br /> 
+                         Leveraging Spring Boot, I build robust server-side components and proficiently manage SQL databases. <br /><br /> My achievements include initiating my journey towards my dream job, actively contributing to collaborative projects, and consistently seeking opportunities for continuous learning in Spring Boot, Material UI, and Git/GitHub. 
+                         <br /><br /> My future goals involve enhancing the "Agri E Extension" project and exploring advanced concepts to elevate project development.
+                       </p>
+                       <div className=' flex flex-wrap gap-3 mt-4'>
+                          <p className=' px-2 py-1 rounded-[1.5rem] text-sm text-yellow-300 border-gray-400 bg-transparent border-2'>Spring Boot</p> 
+                          <p className=' px-2 py-1 rounded-[1.5rem] text-sm text-yellow-300 border-gray-400 bg-transparent border-2'>React</p>
+                          <p className=' px-2 py-1 rounded-[1.5rem] text-sm text-yellow-300 border-gray-400 bg-transparent border-2'>Material UI</p>
+                          <p className=' px-2 py-1 rounded-[1.5rem] text-sm text-yellow-300 border-gray-400 bg-transparent border-2'>SQL</p>
+                          <p className=' px-2 py-1 rounded-[1.5rem] text-sm text-yellow-300 border-gray-400 bg-transparent border-2'>Mean Stack</p>
+                       </div>     
                     </div>
-
-                     <div className="timeline-item relative pl-[37px] pb-[50px] before:[''] before:w-[1px] before:absolute before:h-full before:left-[7px] before:top-0 before:bg-red-500">
-                       <div className="circle-dot absolute w-[15px] h-[15px] left-0 top-0 bg-red-500 rounded-full"></div>
-                       <div className=' flex flex-row '>
-                       <CiCalendarDate  className=' text-xl mr-2 text-sky-300'/> 
-                       <h3 className='timeline-date mb-4 text-sky-300 '>2023 - 2024</h3>
-                       </div>
-                       <h4 className='timeline-title text-xl mb-5 capitalize'>Master in computing</h4>
-                       <p className=' text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur perferendis excepturi iure reiciendis ullam nobis.</p>
-                    </div>
-
-                     <div className="timeline-item relative pl-[37px] pb-0 before:[''] before:w-[1px] before:absolute before:h-full before:left-[7px] before:top-0 before:bg-red-500">
-                       <div className="circle-dot absolute w-[15px] h-[15px] left-0 top-0 bg-red-500 rounded-full"></div>
-                       <div className=' flex flex-row '>
-                          <CiCalendarDate  className=' text-xl mr-2 text-sky-300'/> 
-                          <h3 className='timeline-date mb-4 text-sky-300 '>2023 - 2024</h3>
-                       </div>
-                       <h4 className='timeline-title text-xl mb-5 capitalize'>Master in computing</h4>
-                       <p className=' text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur perferendis excepturi iure reiciendis ullam nobis.</p>
-                    </div>
-
+                
                   </div>
                  </div>
                </div>
-           </motion.div>*/}
+           </motion.div>
            
         </div>
         
