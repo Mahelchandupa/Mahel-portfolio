@@ -61,7 +61,7 @@ const Experience = () => {
           }}
           viewport={{ once: true }}
          className="text-white text-center text-3xl lg:text-4xl overflow-hidden">
-             Experience
+             Skills
         </motion.h3>  
         </div> 
 

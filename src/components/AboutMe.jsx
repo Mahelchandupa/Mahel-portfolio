@@ -224,18 +224,21 @@ const AboutMe = () => {
                          <h3 className='timeline-date mb-4 text-sky-300 '>11/2023 - Present</h3>
                        </div>             
                        <h4 className='timeline-title text-xl mb-1 capitalize'>Full Stack Developer</h4>
-                       <p className=' mb-5 text-yellow-300 font-semibold'>Ones & Zeros - Internship</p>
-                       <p className=' text-gray-400 text-sm lg:text-md'>
+                       <p className=' mb-5 text-yellow-300 text-sm lg:text-md'>Ones & Zeros - Internship</p>
+                       <p className=' text-gray-400 text-sm lg:text-md  hidden sm:block'>
                          As a Full Stack Developer intern at Ones & Zeros, I excel in both front-end and back-end development. Employing ReactJS, CSS, and Material UI for a compelling user interface, I ensure responsive design across devices. <br /><br /> 
                          Leveraging Spring Boot, I build robust server-side components and proficiently manage SQL databases. <br /><br /> My achievements include initiating my journey towards my dream job, actively contributing to collaborative projects, and consistently seeking opportunities for continuous learning in Spring Boot, Material UI, and Git/GitHub. 
                          <br /><br /> My future goals involve enhancing the "Agri E Extension" project and exploring advanced concepts to elevate project development.
                        </p>
+                       <p className='text-gray-400 text-sm lg:text-md sm:block lg:hidden'>
+                         Full Stack Developer intern at Ones & Zeros, proficient in ReactJS, CSS, Material UI, Spring Boot, and SQL. Actively contributes to collaborative projects, continuously learning in Git/GitHub. <br /><br /> Future goals: Enhance "Agri E Extension" and explore advanced concepts for project development.
+                       </p>
                        <div className=' flex flex-wrap gap-3 mt-4'>
-                          <p className=' px-2 py-1 rounded-[1.5rem] text-sm text-yellow-300 border-gray-400 bg-transparent border-2'>Spring Boot</p> 
-                          <p className=' px-2 py-1 rounded-[1.5rem] text-sm text-yellow-300 border-gray-400 bg-transparent border-2'>React</p>
-                          <p className=' px-2 py-1 rounded-[1.5rem] text-sm text-yellow-300 border-gray-400 bg-transparent border-2'>Material UI</p>
-                          <p className=' px-2 py-1 rounded-[1.5rem] text-sm text-yellow-300 border-gray-400 bg-transparent border-2'>SQL</p>
-                          <p className=' px-2 py-1 rounded-[1.5rem] text-sm text-yellow-300 border-gray-400 bg-transparent border-2'>Mean Stack</p>
+                          <p className=' px-3 py-1 rounded-[1.5rem] text-sm text-yellow-300 border-gray-400 bg-transparent border-2'>Spring Boot</p> 
+                          <p className=' px-3 py-1 rounded-[1.5rem] text-sm text-yellow-300 border-gray-400 bg-transparent border-2'>React</p>
+                          <p className=' px-3 py-1 rounded-[1.5rem] text-sm text-yellow-300 border-gray-400 bg-transparent border-2'>Material UI</p>
+                          <p className=' px-3 py-1 rounded-[1.5rem] text-sm text-yellow-300 border-gray-400 bg-transparent border-2'>SQL</p>
+                          <p className=' px-3 py-1 rounded-[1.5rem] text-sm text-yellow-300 border-gray-400 bg-transparent border-2'>Mean Stack</p>
                        </div>     
                     </div>
                 
