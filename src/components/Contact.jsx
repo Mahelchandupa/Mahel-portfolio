@@ -1,11 +1,43 @@
-import React from 'react'
 import {motion} from 'framer-motion'
 
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
 
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 const Contact = () => {
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "6f877265-2f74-4893-a40f-2b162bbda2c8");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      console.log("Success", res)
+      showMessage()
+    }
+
+  };
+
+  const showMessage = () => {
+    toast.success("Thank You !")
+  }
+
   return (
     <section id='contact' className=' overflow-hidden py-[50px] lg:py-[100px] lg:h-auto font-mono bg-cover lg:bg-contain bg-center bg-[url("https://github.githubassets.com/images/modules/site/home-campaign/bg-stars-1.webp")] '>
     <div className=' px-5 container mx-auto overflow-hidden'>
@@ -75,6 +107,7 @@ const Contact = () => {
         </motion.div>
 
         <motion.form 
+           onSubmit={onSubmit}
            initial={{ x: 100, opacity: 0 }} 
            whileInView={{
              x: 0,
@@ -90,7 +123,7 @@ const Contact = () => {
         </motion.form>
 
       </div>
-
+      <ToastContainer position="top-right" autoClose={500} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover theme="dark"/>
     </div>
   </section>  )
 }
