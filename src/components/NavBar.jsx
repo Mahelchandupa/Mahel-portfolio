@@ -105,7 +105,7 @@ export const Navbar = () => {
                     <a href="#about">About</a>
                 </li>
                 <li className=" relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
-                    <a href="#skills">Experience</a>
+                    <a href="#skills">Skills</a>
                 </li>
                 <li className=" relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
                     <a href="#portfolio">Portfolio</a>

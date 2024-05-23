@@ -33,7 +33,7 @@ const Footer = () => {
       className=' flex flex-wrap lg:flex-row flex-col justify-center gap-[1.5rem] lg:gap-[2rem] m-auto mb-12'>
         <li><a className=' text-xl text-sky-500 transition duration-300 ease-in-out hover:text-slate-200' href="#">Home</a></li>
         <li><a className=' text-xl text-sky-500 transition duration-300 ease-in-out hover:text-slate-200' href="#about">About</a></li>
-        <li><a className=' text-xl text-sky-500 transition duration-300 ease-in-out hover:text-slate-200' href="#skills">Experience</a></li>
+        <li><a className=' text-xl text-sky-500 transition duration-300 ease-in-out hover:text-slate-200' href="#skills">Skills</a></li>
         <li><a className=' text-xl text-sky-500 transition duration-300 ease-in-out hover:text-slate-200' href="#portfolio">Portfolio</a></li>
         <li><a className=' text-xl text-sky-500 transition duration-300 ease-in-out hover:text-slate-200' href="#contact">Contact</a></li>
       </motion.ul>

@@ -1,8 +1,7 @@
-import {React} from 'react'
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation';
 
-import CV from '../../src/assest/Mahel Chandupa.pdf'
+import CV from '../../src/assest/mahel-new.pdf'
 
 
 

@@ -1,5 +1,3 @@
-import React from 'react'
-
 import {BiLogoMediumOld} from 'react-icons/bi'
 
 const Logo = () => {
