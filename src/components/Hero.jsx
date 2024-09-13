@@ -1,9 +1,7 @@
 import { motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation';
 
-import CV from '../../src/assest/mahel-new.pdf'
-
-
+import CV from '../../src/assest/mahel-chandupa.pdf'
 
 import Image from '../assest/Web-development_-programmer-engineering-and-coding-website-on-augmented-reality-interface-screens-on-transparent-background-PNG-removebg-preview.png'
 

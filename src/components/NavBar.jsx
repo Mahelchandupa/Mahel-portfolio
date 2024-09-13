@@ -81,7 +81,7 @@ export const Navbar = () => {
 
 
     return(
-    <nav className={`${navColor === true ? 'bg-slate-900 bg-contain bg-center bg-[url("https://github.githubassets.com/images/modules/site/home-campaign/bg-stars-1.webp")]' : 'bg-transparent'} h-[80px] lg:h-[80px] w-full font-mono fixed top-0 left-0 z-30 transition duration-300 ease-in`}>
+    <nav className={`${navColor === true ? 'bg-slate-900 bg-contain bg-center bg-[url("https://github.githubassets.com/images/modules/site/home-campaign/bg-stars-1.webp")]' : 'bg-transparent'} h-[80px] lg:h-[80px] w-full font-mono fixed top-0 left-0 z-30 transition duration-300 ease-in lg:px-16`}>
       <motion.div
        initial={{
         y: -100

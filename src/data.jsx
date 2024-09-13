@@ -25,6 +25,12 @@ import SocialFake1 from '../src/assest/project images/fakeSocial1.png'
 import SocialFake2 from '../src/assest/project images/fakeSocial2.png'
 import SocialFake3 from '../src/assest/project images/fakeSocial3.png'
 
+import OnlineFoodOrdering1 from '../src/assest/project images/OnlineFoodOrdering-1.png'
+
+import RealEstateMarket1 from '../src/assest/project images/real-estate-1.png'
+import RealEstateMarket2 from '../src/assest/project images/real-estate-2.png'
+import RealEstateMarket3 from '../src/assest/project images/real-estate-3.png'
+
 import Ehub1 from '../src/assest/project images/Ehub1.png'
 import Ehub2 from '../src/assest/project images/Ehub2.png'
 import Ehub3 from '../src/assest/project images/Ehub3.png'
@@ -57,97 +63,28 @@ import BlogApp4 from '../src/assest/project images/BlogApp4.png'
 export const portfolioData = [
     {
         id: 1,
-        image: SocialFake1,
-        title: 'Facebook UI Clone',
-        github: 'https://github.com/Mahelchandupa/Facebook-UI-Clone.git',
-        demo: 'https://fackesocial-ui-clone.netlify.app',
-        desc: 'Developed a basic Facebook UI clone using React to grasp fundamental concepts of frontend development, including components, state management, and UI design principles. ',
-        technology: 'React, CSS',
-        role: 'Fronet End',
+        image: OnlineFoodOrdering1,
+        title: 'Online Food Ordering System',
+        github: 'https://github.com/Mahelchandupa/Online-Food-Ordering-System',
+        demo: 'https://github.com/Mahelchandupa/Online-Food-Ordering-System',
+        desc: 'Developed a complete food ordering system that allows users to browse and order food from a variety of restaurants. The project involved creating a user-friendly interface, implementing a search feature, and integrating a payment gateway to facilitate secure transactions.', // The system also includes an admin panel for restaurant owners to manage their menus and orders, providing a comprehensive solution for both customers and businesses.
+        technology: 'React, Spring Boot, MySQL, Tailwind CSS',
+        role: 'Fronet End & Back End',
         screenShots: [
             {
-                img: SocialFake1
+                img: OnlineFoodOrdering1
             },
             {
-                img: SocialFake2
+                img: OnlineFoodOrdering1
             },
             {
-                img: SocialFake3
+                img: OnlineFoodOrdering1
             },
         ]
        },
     
        {
         id: 2,
-        image: NewFlash1,
-        title: 'Blog App - NEW FLASH',
-        github: 'https://newflash.netlify.app',
-        demo: 'https://newflash.netlify.app',
-        desc: 'Built a responsive blog app named "New Flash" solely using CSS to delve into the intricacies of crafting adaptable layouts and mastering responsive design techniques.',
-        technology: 'Html, CSS, Javascript',
-        role: 'Fronet End',
-        screenShots: [
-            {
-                img: NewFlash1
-            },
-            {
-                img: NewFlash2
-            },
-            {
-                img: NewFlash3
-            },         
-        ]
-       },
-    
-       {
-        id: 3,
-        image: Ehub1,
-        title: 'Ehub Web App',
-        github: 'https://ehub-fake.netlify.app',
-        demo: 'https://ehub-fake.netlify.app',
-        desc: 'Creating this e-learning web UI involves utilizing CSS keyframe animations and JavaScript. It serves as a hands-on platform to refine animation skills and enhance comprehension of interactive web development concepts.',
-        technology: 'Html, CSS, javascript',
-        role: 'Fronet End',
-        screenShots: [
-            {
-                img: Ehub1
-            },
-            {
-                img: Ehub2
-            },
-            {
-                img: Ehub3
-            },
-            {
-                img: Ehub4
-            },
-        ]
-       },
-       
-       {
-        id: 4,
-        image: YtFake1,
-        title: 'Youtube UI Clone',
-        github: 'https://yt-fake.netlify.app',
-        demo: 'https://yt-fake.netlify.app',
-        desc: 'A practice project involves crafting a basic YouTube UI clone to enhance layout design skills. This exercise focuses on refining your ability to create effective and visually pleasing interfaces.',
-        technology: 'Html, CSS, javascript',
-        role: 'Fronet End',
-        screenShots: [
-            {
-                img: YtFake1
-            },
-            {
-                img: YtFake2
-            },
-            {
-                img: YtFake3
-            },          
-        ]
-
-       },
-       {
-        id: 5,
         image: GamePlatform2,
         title: 'Game Distribution Platform',
         github: 'https://github.com/Mahelchandupa/Game-Distribution-Platform.git',
@@ -178,6 +115,74 @@ export const portfolioData = [
        },
     
        {
+        id: 3,
+        image: RealEstateMarket1,
+        title: 'Real Estate Marketplace',
+        github: 'https://github.com/Mahelchandupa/MERN-Real-Estate-Marketplace.git',
+        demo: 'https://github.com/Mahelchandupa/MERN-Real-Estate-Marketplace.git',
+        desc: 'I developed this real estate marketplace using the MERN stack. The project involved creating a full-stack web application, integrating a MongoDB database, and implementing user authentication. This project was a valuable learning experience in building a complete web application from scratch, covering both frontend and backend development.',
+        technology: 'ReactJs, NodeJs, ExpressJs, MongoDB, Tailwind CSS, Firebase',  
+        role: 'Fronet End & Back End',
+        screenShots: [
+            {
+                img: RealEstateMarket1
+            },
+            {
+                img:  RealEstateMarket2
+            },
+            {
+                img:  RealEstateMarket3
+            },
+        ]
+       },
+       
+       {
+        id: 4,
+        image: BlogApp1,
+        title: 'Blogs App',
+        github: 'https://github.com/Mahelchandupa/Blog-App.git',
+        demo: 'https://github.com/Mahelchandupa/Blog-App.git',
+        desc: `Explore a sophisticated full-stack blog website developed using a modern technology stack. This project harnesses the power of React.js for the front-end, Node.js for the back-end, MongoDB for the database, and CSS for styling.The website boasts a range of features, including user authentication for seamless registration and profile management. Authenticated users can effortlessly create and edit blog posts, while the search functionality enables users to find posts by keywords or topics. With a responsive design, the website ensures a seamless and enjoyable experience across various screen sizes.`,
+        technology: 'ReactJs, NodeJs, MongoDB, CSS',
+        role: 'Fronet End & Back End',
+        screenShots: [
+            {
+                img: BlogApp1
+            },
+            {
+                img: BlogApp2
+            },
+            {
+                img: BlogApp3
+            },
+            {
+                img: BlogApp4
+            }
+        ]
+       },
+       {
+        id: 5,
+        image: NewFlash1,
+        title: 'Blog App - NEW FLASH',
+        github: 'https://newflash.netlify.app',
+        demo: 'https://newflash.netlify.app',
+        desc: 'Built a responsive blog app named "New Flash" solely using CSS to delve into the intricacies of crafting adaptable layouts and mastering responsive design techniques.',
+        technology: 'Html, CSS, Javascript',
+        role: 'Fronet End',
+        screenShots: [
+            {
+                img: NewFlash1
+            },
+            {
+                img: NewFlash2
+            },
+            {
+                img: NewFlash3
+            },         
+        ]
+       },
+    
+       {
         id: 6,
         image: HospitalQueue1,
         title: 'Hospital Queue Managment',
@@ -195,22 +200,25 @@ export const portfolioData = [
     
        {
         id: 7,
-        image: Ums1,
-        title: 'University Managment',
-        github: 'https://github.com/Mahelchandupa/University-Managment-System.git',
-        demo: 'https://github.com/Mahelchandupa/University-Managment-System.git',
-        desc: 'I developed this University management system for my university coursework',
-        technology: 'Java',
-        role: 'Fronet End & Back End',
+        image: Ehub1,
+        title: 'Ehub Web App',
+        github: 'https://ehub-fake.netlify.app',
+        demo: 'https://ehub-fake.netlify.app',
+        desc: 'Creating this e-learning web UI involves utilizing CSS keyframe animations and JavaScript. It serves as a hands-on platform to refine animation skills and enhance comprehension of interactive web development concepts.',
+        technology: 'Html, CSS, javascript',
+        role: 'Fronet End',
         screenShots: [
             {
-                img: Ums1
+                img: Ehub1
             },
             {
-                img:  Ums2
+                img: Ehub2
             },
             {
-                img:  Ums3
+                img: Ehub3
+            },
+            {
+                img: Ehub4
             },
         ]
        },
@@ -289,26 +297,23 @@ export const portfolioData = [
 
         {
         id: 11,
-        image: BlogApp1,
-        title: 'Blogs App',
-        github: 'https://github.com/Mahelchandupa/Blog-App.git',
-        demo: 'https://github.com/Mahelchandupa/Blog-App.git',
-        desc: `Explore a sophisticated full-stack blog website developed using a modern technology stack. This project harnesses the power of React.js for the front-end, Node.js for the back-end, MongoDB for the database, and CSS for styling.The website boasts a range of features, including user authentication for seamless registration and profile management. Authenticated users can effortlessly create and edit blog posts, while the search functionality enables users to find posts by keywords or topics. With a responsive design, the website ensures a seamless and enjoyable experience across various screen sizes.`,
-        technology: 'ReactJs, NodeJs, MongoDB, CSS',
-        role: 'Fronet End & Back End',
+        image: YtFake1,
+        title: 'Youtube UI Clone',
+        github: 'https://yt-fake.netlify.app',
+        demo: 'https://yt-fake.netlify.app',
+        desc: 'A practice project involves crafting a basic YouTube UI clone to enhance layout design skills. This exercise focuses on refining your ability to create effective and visually pleasing interfaces.',
+        technology: 'Html, CSS, javascript',
+        role: 'Fronet End',
         screenShots: [
             {
-                img: BlogApp1
+                img: YtFake1
             },
             {
-                img: BlogApp2
+                img: YtFake2
             },
             {
-                img: BlogApp3
-            },
-            {
-                img: BlogApp4
-            }
+                img: YtFake3
+            },          
         ]
        },
 

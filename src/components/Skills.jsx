@@ -117,7 +117,7 @@ const Experience = () => {
                 <motion.div 
                   variants={imgVarients}                
                   className=' flex flex-col items-center bg-transparent w-40 h-36 min-[320px]:w-32 rounded-lg justify-center gap-y-4'>
-                  <FaBootstrap className=' min-[320px]:text-5xl text-6xl min-[320px]:text-5xl text-purple-700 animate-[skillIcons_5s_ease-in-out_infinite]'/>
+                  <FaBootstrap className=' text-6xl min-[320px]:text-5xl text-purple-700 animate-[skillIcons_5s_ease-in-out_infinite]'/>
                   <h1 className=' text-xl text-slate-200 '>Bootstrap</h1>
                 </motion.div>
             </motion.div>
